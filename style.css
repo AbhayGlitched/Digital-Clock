@@ -1,0 +1,41 @@
+body {
+background: url("bg.jpg")  no-repeat;
+height : 100vh;
+width: 100vw;
+overflow: hidden;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: 0;
+background-size: cover;
+}
+
+
+.clock{
+    display: flex   ;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.time {
+    display:block ;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+ backdrop-filter: blur(9px);        
+ width: 100%;
+ font-family: monospace;
+
+
+}
+
+.stop{
+display:inline;
+size: 100px;
+color: rgb(0, 0, 0);
+}
+.start{
+display: inline;
+size: 100px;
+color: rgb(0, 0, 0);    
+}
